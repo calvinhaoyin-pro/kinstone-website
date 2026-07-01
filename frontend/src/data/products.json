@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "h-beam-steel",
+    "name": { "en": "H-Beam Steel", "zh": "H型钢" },
+    "category": { "en": "Structural Steel", "zh": "结构钢" },
+    "summary": {
+      "en": "[TODO] Replace with real copy. High-strength H-beam sections for structural framing, engineered for heavy load-bearing applications.",
+      "zh": "[TODO] 请替换为正式文案。高强度H型钢，适用于承重结构框架的工程应用。"
+    },
+    "image": ""
+  },
+  {
+    "slug": "steel-plate",
+    "name": { "en": "Steel Plate", "zh": "钢板" },
+    "category": { "en": "Flat Steel", "zh": "板材" },
+    "summary": {
+      "en": "[TODO] Replace with real copy. Hot-rolled steel plate available in a range of thicknesses and grades for industrial fabrication.",
+      "zh": "[TODO] 请替换为正式文案。热轧钢板，提供多种厚度和等级，适用于工业制造。"
+    },
+    "image": ""
+  },
+  {
+    "slug": "steel-pipe",
+    "name": { "en": "Welded Steel Pipe", "zh": "焊接钢管" },
+    "category": { "en": "Tubular Steel", "zh": "管材" },
+    "summary": {
+      "en": "[TODO] Replace with real copy. Precision-welded steel pipe for construction, energy, and infrastructure projects worldwide.",
+      "zh": "[TODO] 请替换为正式文案。精密焊接钢管，广泛应用于全球建筑、能源及基础设施项目。"
+    },
+    "image": ""
+  },
+  {
+    "slug": "rebar",
+    "name": { "en": "Reinforcing Bar (Rebar)", "zh": "螺纹钢" },
+    "category": { "en": "Construction Steel", "zh": "建筑钢材" },
+    "summary": {
+      "en": "[TODO] Replace with real copy. Deformed steel bar for reinforced concrete, manufactured to international sizing standards.",
+      "zh": "[TODO] 请替换为正式文案。用于钢筋混凝土的变形钢筋，符合国际尺寸标准。"
+    },
+    "image": ""
+  }
+]

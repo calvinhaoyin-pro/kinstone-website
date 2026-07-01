@@ -1,0 +1,132 @@
+openapi: 3.0.3
+info:
+  title: Kinstone Website API
+  description: Minimal API for the Kinstone company website — inquiry submissions only.
+  version: 0.1.0
+
+servers:
+  - url: https://api.kinstone.com
+    description: Production
+  - url: https://api-dev.kinstone.com
+    description: Development
+
+paths:
+  /api/inquiries:
+    post:
+      summary: Submit an inquiry
+      description: >
+        Accepts a contact form submission (general question, quote request,
+        or inventory check). Validates input, emails the sales team, and
+        optionally logs to DynamoDB.
+      operationId: createInquiry
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InquiryRequest'
+      responses:
+        '201':
+          description: Inquiry submitted successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InquiryResponse'
+        '400':
+          description: Validation failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationError'
+        '429':
+          description: Rate limit exceeded
+        '500':
+          description: Internal server error
+
+  /api/health:
+    get:
+      summary: Health check
+      operationId: healthCheck
+      responses:
+        '200':
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+
+components:
+  schemas:
+    InquiryRequest:
+      type: object
+      required:
+        - type
+        - name
+        - email
+        - message
+        - locale
+      properties:
+        type:
+          type: string
+          enum: [general, quote, inventory-check]
+          description: Type of inquiry
+        name:
+          type: string
+          minLength: 1
+          maxLength: 100
+        company:
+          type: string
+          maxLength: 200
+        email:
+          type: string
+          format: email
+        phone:
+          type: string
+          maxLength: 30
+        message:
+          type: string
+          minLength: 1
+          maxLength: 2000
+        productInterest:
+          type: string
+          maxLength: 200
+          description: Product slug or free-text reference
+        locale:
+          type: string
+          enum: [en, zh]
+
+    InquiryResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        message:
+          type: string
+          example: Inquiry submitted successfully
+
+    ValidationError:
+      type: object
+      properties:
+        error:
+          type: string
+          example: Validation failed
+        details:
+          type: array
+          items:
+            type: object
+            properties:
+              field:
+                type: string
+              message:
+                type: string
+
+    HealthResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          example: ok
+        timestamp:
+          type: string
+          format: date-time

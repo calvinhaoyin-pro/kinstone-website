@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "harbor-logistics-hub",
+    "name": { "en": "Harbor Logistics Hub", "zh": "港口物流枢纽项目" },
+    "location": { "en": "Qingdao, China", "zh": "中国青岛" },
+    "year": 2023,
+    "description": {
+      "en": "[TODO] Replace with real project description. Structural steel supply for a large-scale logistics and warehousing complex.",
+      "zh": "[TODO] 请替换为正式项目描述。为大型物流仓储综合体提供结构钢材供应。"
+    },
+    "image": ""
+  },
+  {
+    "slug": "riverside-bridge-expansion",
+    "name": { "en": "Riverside Bridge Expansion", "zh": "河滨大桥扩建项目" },
+    "location": { "en": "Ho Chi Minh City, Vietnam", "zh": "越南胡志明市" },
+    "year": 2022,
+    "description": {
+      "en": "[TODO] Replace with real project description. Fabrication and delivery of steel girders for a regional bridge expansion.",
+      "zh": "[TODO] 请替换为正式项目描述。为区域大桥扩建项目制造并交付钢梁。"
+    },
+    "image": ""
+  },
+  {
+    "slug": "industrial-park-phase-2",
+    "name": { "en": "Industrial Park, Phase II", "zh": "工业园区二期项目" },
+    "location": { "en": "Rayong, Thailand", "zh": "泰国罗勇" },
+    "year": 2021,
+    "description": {
+      "en": "[TODO] Replace with real project description. End-to-end steel structure supply for a multi-building industrial park.",
+      "zh": "[TODO] 请替换为正式项目描述。为多栋建筑工业园区提供端到端钢结构供应。"
+    },
+    "image": ""
+  }
+]

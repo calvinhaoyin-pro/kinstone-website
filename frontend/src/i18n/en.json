@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Contact Us"
+  },
+  "common": {
+    "viewAll": "View All",
+    "learnMore": "Learn More",
+    "requestQuote": "Request Quote",
+    "placeholder": "Placeholder",
+    "todoBadge": "Placeholder content — to be replaced"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Kinstone Steel",
+      "title": "Building the Future of Global Steel",
+      "subtitle": "[TODO] Replace with real copy. From a trusted domestic manufacturer to an international steel partner — we deliver quality structural steel to markets worldwide.",
+      "ctaPrimary": "Explore Products",
+      "ctaSecondary": "Contact Us"
+    },
+    "valueProps": {
+      "title": "Why Kinstone",
+      "items": [
+        {
+          "title": "Quality",
+          "description": "[TODO] Rigorous manufacturing standards and quality control at every stage of production."
+        },
+        {
+          "title": "Global Reach",
+          "description": "[TODO] Serving partners and projects across Asia, and expanding into new international markets."
+        },
+        {
+          "title": "Innovation",
+          "description": "[TODO] Investing in modern processes and technology to support a growing trading platform."
+        }
+      ]
+    },
+    "featuredProducts": {
+      "title": "Featured Products",
+      "viewAll": "View All Products"
+    },
+    "portfolioTeaser": {
+      "title": "Recent Projects",
+      "viewAll": "View All Projects"
+    },
+    "ctaBanner": {
+      "title": "Ready to work with us?",
+      "subtitle": "Get a quote, check inventory, or ask us anything — our team responds quickly.",
+      "cta": "Contact Us"
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "[TODO] Replace with real copy. A growing range of structural and industrial steel products manufactured to international standards.",
+    "category": "Category",
+    "requestQuote": "Request Quote"
+  },
+  "portfolio": {
+    "title": "Our Portfolio",
+    "subtitle": "[TODO] Replace with real copy. A selection of completed projects supplied and supported by Kinstone."
+  },
+  "about": {
+    "title": "About Kinstone",
+    "story": {
+      "heading": "Our Story",
+      "paragraphs": [
+        "[TODO] Replace with real company story. Kinstone began as a traditional steel manufacturer serving the domestic Chinese market, building a reputation for reliable, high-quality structural steel.",
+        "[TODO] Replace with real company story. Today, Kinstone is transforming into an international steel manufacturing and trading company — connecting our manufacturing strength with partners and projects around the world."
+      ]
+    },
+    "timeline": {
+      "heading": "Our Journey",
+      "items": [
+        { "year": "[TODO]", "title": "Founded", "description": "[TODO] Replace with real milestone copy." },
+        { "year": "[TODO]", "title": "Domestic Expansion", "description": "[TODO] Replace with real milestone copy." },
+        { "year": "[TODO]", "title": "International Trading Begins", "description": "[TODO] Replace with real milestone copy." },
+        { "year": "[TODO]", "title": "Global Partnerships", "description": "[TODO] Replace with real milestone copy." }
+      ]
+    },
+    "values": {
+      "heading": "Our Values",
+      "items": [
+        { "title": "Integrity", "description": "[TODO] Replace with real copy." },
+        { "title": "Craftsmanship", "description": "[TODO] Replace with real copy." },
+        { "title": "Partnership", "description": "[TODO] Replace with real copy." }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch for general questions, quotes, or inventory checks. Our team typically responds within one business day.",
+    "inquiryTypes": {
+      "general": "General Inquiry",
+      "quote": "Request a Quote",
+      "inventory-check": "Check Inventory"
+    },
+    "form": {
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "productInterest": "Product Interest (optional)",
+      "productInterestPlaceholder": "e.g. H-Beam Steel",
+      "message": "Message",
+      "messagePlaceholder": "Tell us what you need...",
+      "submit": "Submit Inquiry",
+      "submitting": "Sending...",
+      "success": "Thanks! Your inquiry has been received. Our team will get back to you shortly.",
+      "errorRequired": "This field is required",
+      "errorEmail": "Please enter a valid email address",
+      "errorSubmit": "Something went wrong submitting your inquiry. Please try again, or email us directly."
+    },
+    "info": {
+      "heading": "Get in Touch",
+      "addressLabel": "Address",
+      "address": "[TODO] Company address, City, Province, China",
+      "phoneLabel": "Phone",
+      "phone": "[TODO] +86 000 0000 0000",
+      "emailLabel": "Email",
+      "email": "[TODO] sales@kinstone.example",
+      "hoursLabel": "Business Hours",
+      "hours": "[TODO] Mon–Fri, 9:00–18:00 (GMT+8)",
+      "mapPlaceholder": "Map placeholder"
+    }
+  },
+  "footer": {
+    "tagline": "[TODO] A steel structure company transitioning into international manufacturing & trading.",
+    "quickLinks": "Quick Links",
+    "contactHeading": "Contact",
+    "copyright": "© {year} Kinstone. All rights reserved."
+  }
+}

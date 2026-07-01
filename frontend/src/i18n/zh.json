@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "portfolio": "项目案例",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "cta": "联系我们"
+  },
+  "common": {
+    "viewAll": "查看全部",
+    "learnMore": "了解更多",
+    "requestQuote": "申请报价",
+    "placeholder": "占位图",
+    "todoBadge": "占位内容 — 待替换"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "昆石钢业",
+      "title": "共筑全球钢铁产业的未来",
+      "subtitle": "[待替换] 请替换为正式文案。从值得信赖的国内制造商，到国际化钢铁合作伙伴——我们为全球市场提供优质结构钢材。",
+      "ctaPrimary": "浏览产品",
+      "ctaSecondary": "联系我们"
+    },
+    "valueProps": {
+      "title": "为什么选择昆石",
+      "items": [
+        {
+          "title": "品质保证",
+          "description": "[待替换] 在生产的每个环节严格执行制造标准与质量控制。"
+        },
+        {
+          "title": "全球布局",
+          "description": "[待替换] 服务亚洲各地合作伙伴及项目，并持续拓展新的国际市场。"
+        },
+        {
+          "title": "持续创新",
+          "description": "[待替换] 投资现代化工艺与技术，支持不断成长的交易平台。"
+        }
+      ]
+    },
+    "featuredProducts": {
+      "title": "主推产品",
+      "viewAll": "查看全部产品"
+    },
+    "portfolioTeaser": {
+      "title": "近期项目",
+      "viewAll": "查看全部项目"
+    },
+    "ctaBanner": {
+      "title": "准备好与我们合作了吗？",
+      "subtitle": "申请报价、查询库存，或咨询任何问题——我们的团队会快速回复。",
+      "cta": "联系我们"
+    }
+  },
+  "products": {
+    "title": "我们的产品",
+    "subtitle": "[待替换] 请替换为正式文案。按照国际标准生产的不断扩展的结构钢与工业钢产品系列。",
+    "category": "类别",
+    "requestQuote": "申请报价"
+  },
+  "portfolio": {
+    "title": "项目案例",
+    "subtitle": "[待替换] 请替换为正式文案。由昆石供应并支持的部分已完成项目。"
+  },
+  "about": {
+    "title": "关于昆石",
+    "story": {
+      "heading": "我们的故事",
+      "paragraphs": [
+        "[待替换] 请替换为正式公司故事。昆石最初是一家服务于中国国内市场的传统钢铁制造商，以可靠优质的结构钢材建立了良好口碑。",
+        "[待替换] 请替换为正式公司故事。如今，昆石正转型为国际化钢铁制造与贸易公司——将我们的制造实力与全球合作伙伴和项目相连接。"
+      ]
+    },
+    "timeline": {
+      "heading": "发展历程",
+      "items": [
+        { "year": "[待替换]", "title": "公司成立", "description": "[待替换] 请替换为正式里程碑内容。" },
+        { "year": "[待替换]", "title": "国内业务扩展", "description": "[待替换] 请替换为正式里程碑内容。" },
+        { "year": "[待替换]", "title": "启动国际贸易", "description": "[待替换] 请替换为正式里程碑内容。" },
+        { "year": "[待替换]", "title": "全球合作伙伴关系", "description": "[待替换] 请替换为正式里程碑内容。" }
+      ]
+    },
+    "values": {
+      "heading": "核心价值",
+      "items": [
+        { "title": "诚信", "description": "[待替换] 请替换为正式文案。" },
+        { "title": "工艺精神", "description": "[待替换] 请替换为正式文案。" },
+        { "title": "合作伙伴关系", "description": "[待替换] 请替换为正式文案。" }
+      ]
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "如有一般问题、报价需求或库存查询，请随时联系我们。我们通常会在一个工作日内回复。",
+    "inquiryTypes": {
+      "general": "一般咨询",
+      "quote": "申请报价",
+      "inventory-check": "库存查询"
+    },
+    "form": {
+      "name": "姓名",
+      "company": "公司名称",
+      "email": "电子邮箱",
+      "phone": "电话",
+      "productInterest": "感兴趣的产品（选填）",
+      "productInterestPlaceholder": "例如：H型钢",
+      "message": "留言内容",
+      "messagePlaceholder": "请告诉我们您的需求...",
+      "submit": "提交咨询",
+      "submitting": "发送中...",
+      "success": "感谢您的咨询！我们已收到您的信息，团队会尽快与您联系。",
+      "errorRequired": "此字段为必填项",
+      "errorEmail": "请输入有效的电子邮箱地址",
+      "errorSubmit": "提交咨询时出现问题，请重试，或直接给我们发送邮件。"
+    },
+    "info": {
+      "heading": "联系方式",
+      "addressLabel": "地址",
+      "address": "[待替换] 公司地址，城市，省份，中国",
+      "phoneLabel": "电话",
+      "phone": "[待替换] +86 000 0000 0000",
+      "emailLabel": "邮箱",
+      "email": "[待替换] sales@kinstone.example",
+      "hoursLabel": "营业时间",
+      "hours": "[待替换] 周一至周五 9:00–18:00（GMT+8）",
+      "mapPlaceholder": "地图占位区域"
+    }
+  },
+  "footer": {
+    "tagline": "[待替换] 一家正在向国际化制造与贸易转型的钢结构企业。",
+    "quickLinks": "快速链接",
+    "contactHeading": "联系方式",
+    "copyright": "© {year} 昆石钢业. 保留所有权利。"
+  }
+}

@@ -7,7 +7,7 @@
       "en": "Fabricated box-section steel columns and beams for heavy industrial and high-load structural applications.",
       "zh": "箱型截面钢柱与钢梁，适用于重工业及高荷载结构工程。"
     },
-    "image": "/images/products/box-structure.png"
+    "image": "/images/products/box-structure.jpg"
   },
   {
     "slug": "high-rise-structure",
@@ -17,7 +17,7 @@
       "en": "Multi-storey steel frame systems for commercial towers and high-rise buildings, engineered for strength and stability.",
       "zh": "多层钢框架结构，适用于商业塔楼及高层建筑，兼顾强度与稳定性。"
     },
-    "image": "/images/products/high-rise-structure.png"
+    "image": "/images/products/high-rise-structure.jpg"
   },
   {
     "slug": "light-steel-structure",
@@ -27,7 +27,7 @@
       "en": "Portal frame and light steel building systems for warehouses, factories, and large-span industrial facilities.",
       "zh": "门式刚架及轻钢结构体系，适用于仓库、厂房及大跨度工业建筑。"
     },
-    "image": "/images/products/light-steel-structure.png"
+    "image": "/images/products/light-steel-structure.jpg"
   },
   {
     "slug": "truss-structure",
@@ -37,7 +37,7 @@
       "en": "Large-span steel truss roof systems for industrial halls, logistics centers, and wide-open interior spaces.",
       "zh": "大跨度钢桁架屋面体系，适用于工业厂房、物流中心及大空间建筑。"
     },
-    "image": "/images/products/truss-structure.png"
+    "image": "/images/products/truss-structure.jpg"
   },
   {
     "slug": "c-beam",
@@ -47,7 +47,7 @@
       "en": "Galvanized cold-formed C-section purlins for roof and wall support in steel structure buildings.",
       "zh": "镀锌冷弯C型檩条，用于钢结构建筑屋面及墙体支撑。"
     },
-    "image": "/images/products/c-beam.png"
+    "image": "/images/products/c-beam.jpg"
   },
   {
     "slug": "z-beam",
@@ -57,7 +57,7 @@
       "en": "Galvanized cold-formed Z-section purlins and girts, ideal for overlapping roof and wall cladding applications.",
       "zh": "镀锌冷弯Z型檩条及墙梁，适用于屋面及外墙板搭接安装。"
     },
-    "image": "/images/products/z-beam.png"
+    "image": "/images/products/z-beam.jpg"
   },
   {
     "slug": "high-frequency-welded-h-beam",
@@ -67,7 +67,7 @@
       "en": "High-frequency welded H-section members for secondary framing, mezzanines, and structural support applications.",
       "zh": "高频焊接H型钢，适用于次结构框架、夹层及结构支撑工程。"
     },
-    "image": "/images/products/high-frequency-welded-h-beam.png"
+    "image": "/images/products/high-frequency-welded-h-beam.jpg"
   },
   {
     "slug": "color-steel-panel",
@@ -77,7 +77,7 @@
       "en": "Pre-painted corrugated color steel panels for roof and wall cladding, available in multiple profiles and colors.",
       "zh": "预涂彩钢波纹板，用于屋面及外墙围护，多种型面和颜色可选。"
     },
-    "image": "/images/products/color-steel-panel.png"
+    "image": "/images/products/color-steel-panel.jpg"
   },
   {
     "slug": "color-steel-sandwich-panel",
@@ -87,7 +87,7 @@
       "en": "Insulated color steel sandwich panels with EPS, rock wool, or PU cores for thermal and acoustic performance.",
       "zh": "彩钢夹芯板，EPS、岩棉或PU芯可选，兼具保温隔热与隔声性能。"
     },
-    "image": "/images/products/color-steel-sandwich-panel.png"
+    "image": "/images/products/color-steel-sandwich-panel.jpg"
   },
   {
     "slug": "steel-floor-deck",
@@ -97,7 +97,7 @@
       "en": "Composite corrugated steel floor deck with shear studs for concrete slab construction in multi-storey steel buildings.",
       "zh": "组合式波纹钢楼承板，配栓钉用于多层钢结构混凝土楼板施工。"
     },
-    "image": "/images/products/steel-floor-deck.png"
+    "image": "/images/products/steel-floor-deck.jpg"
   },
   {
     "slug": "steel-grating",
@@ -107,7 +107,7 @@
       "en": "Galvanized steel bar grating for walkways, platforms, and industrial flooring with drainage and slip resistance.",
       "zh": "镀锌钢格栅板，适用于走道、平台及工业地坪，具备排水及防滑性能。"
     },
-    "image": "/images/products/steel-grating.png"
+    "image": "/images/products/steel-grating.jpg"
   },
   {
     "slug": "stair",
@@ -117,7 +117,7 @@
       "en": "Fabricated steel stair systems for mezzanines and multi-level industrial buildings, with optional cable or pipe railings.",
       "zh": "装配式钢楼梯，适用于夹层及多层工业建筑，可选钢索或栏杆扶手。"
     },
-    "image": "/images/products/stair.png"
+    "image": "/images/products/stair.jpg"
   },
   {
     "slug": "checkered-steel-plate",
@@ -127,7 +127,7 @@
       "en": "Anti-slip checkered steel plate for walkways, stair treads, platforms, and industrial flooring applications.",
       "zh": "防滑花纹钢板，适用于走道、楼梯踏步、平台及工业地坪。"
     },
-    "image": "/images/products/checkered-steel-plate.png"
+    "image": "/images/products/checkered-steel-plate.jpg"
   },
   {
     "slug": "steel-canopy",
@@ -137,7 +137,7 @@
       "en": "Fabricated steel entrance canopies and awnings for building entrances, loading areas, and pedestrian walkways.",
       "zh": "装配式钢雨棚及入口遮阳棚，适用于建筑出入口、装卸区及人行通道。"
     },
-    "image": "/images/products/steel-canopy.png"
+    "image": "/images/products/steel-canopy.jpg"
   },
   {
     "slug": "safety-guardrail",
@@ -147,7 +147,7 @@
       "en": "Galvanized steel safety guardrails and handrails for platforms, stairs, mezzanines, and perimeter fall protection.",
       "zh": "镀锌钢安全护栏及扶手，适用于平台、楼梯、夹层及临边防护。"
     },
-    "image": "/images/products/safety-guardrail.png"
+    "image": "/images/products/safety-guardrail.jpg"
   },
   {
     "slug": "skylight-system",
@@ -157,7 +157,7 @@
       "en": "Translucent skylight panels and ridge daylighting systems for natural lighting in industrial and commercial buildings.",
       "zh": "透明采光板及屋脊采光系统，为工业及商业建筑提供自然采光。"
     },
-    "image": "/images/products/skylight-system.png"
+    "image": "/images/products/skylight-system.jpg"
   },
   {
     "slug": "waterproof-roofing-membrane",
@@ -167,7 +167,7 @@
       "en": "Polymer waterproof roofing membranes for flat and low-slope roofs, providing long-term weather protection.",
       "zh": "高分子防水卷材，适用于平屋面及缓坡屋面，提供长效防水保护。"
     },
-    "image": "/images/products/waterproof-roofing-membrane.png"
+    "image": "/images/products/waterproof-roofing-membrane.jpg"
   },
   {
     "slug": "sunshade-louvers",
@@ -177,7 +177,7 @@
       "en": "Exterior aluminum or steel sunshade louvers for facade shading, glare control, and energy efficiency.",
       "zh": "室外铝制或钢制遮阳百叶，用于立面遮阳、眩光控制及节能。"
     },
-    "image": "/images/products/sunshade-louvers.png"
+    "image": "/images/products/sunshade-louvers.jpg"
   },
   {
     "slug": "pv-system",
@@ -187,7 +187,7 @@
       "en": "Rooftop photovoltaic mounting systems integrated with steel structure buildings for solar power generation.",
       "zh": "与钢结构建筑集成的屋面光伏支架系统，用于太阳能发电。"
     },
-    "image": "/images/products/pv-system.png"
+    "image": "/images/products/pv-system.jpg"
   },
   {
     "slug": "insulation-material",
@@ -197,7 +197,7 @@
       "en": "Glass wool insulation blankets for roof and wall thermal insulation in steel structure buildings.",
       "zh": "玻璃棉保温毯，用于钢结构建筑屋面及墙体保温隔热。"
     },
-    "image": "/images/products/insulation-material.png"
+    "image": "/images/products/insulation-material.jpg"
   },
   {
     "slug": "curtain-wall-steel-frame",
@@ -207,7 +207,7 @@
       "en": "Steel framing systems for glass curtain walls and façade cladding on commercial and high-rise buildings.",
       "zh": "玻璃幕墙及外立面围护钢框架，适用于商业及高层建筑。"
     },
-    "image": "/images/products/curtain-wall-steel-frame.png"
+    "image": "/images/products/curtain-wall-steel-frame.jpg"
   },
   {
     "slug": "steel-spiral-staircase",
@@ -217,7 +217,7 @@
       "en": "Architectural spiral staircases in steel for commercial lobbies, atriums, and decorative interior applications.",
       "zh": "建筑用钢旋转楼梯，适用于商业大堂、中庭及室内装饰。"
     },
-    "image": "/images/products/steel-spiral-staircase.png"
+    "image": "/images/products/steel-spiral-staircase.jpg"
   },
   {
     "slug": "steel-gazebo",
@@ -227,6 +227,6 @@
       "en": "Fabricated steel gazebos and pavilions for courtyards, parks, and outdoor architectural features.",
       "zh": "装配式钢凉亭及景观亭，适用于庭院、公园及户外建筑景观。"
     },
-    "image": "/images/products/steel-gazebo.png"
+    "image": "/images/products/steel-gazebo.jpg"
   }
 ]

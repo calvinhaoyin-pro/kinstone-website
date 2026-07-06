@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Source PNGs — commit compressed .jpg versions for the site
+public/images/products/*.png

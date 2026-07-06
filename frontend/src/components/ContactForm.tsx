@@ -101,10 +101,10 @@ export default function ContactForm() {
             type="button"
             onClick={() => setType(option)}
             aria-pressed={type === option}
-            className={`rounded-full border px-4 py-2 text-sm font-semibold transition-colors ${
+            className={`border px-4 py-2 font-mono text-xs uppercase tracking-[0.12em] transition-colors ${
               type === option
                 ? "border-accent bg-accent text-white"
-                : "border-border text-text-muted hover:border-accent hover:text-accent"
+                : "border-border text-text-muted hover:border-accent hover:text-text"
             }`}
           >
             {t.contact.inquiryTypes[option]}
@@ -169,8 +169,8 @@ export default function ContactForm() {
             onChange={(event) => updateField("message", event.target.value)}
             placeholder={t.contact.form.messagePlaceholder}
             rows={5}
-            className={`w-full rounded-lg border px-3.5 py-2.5 text-sm outline-none transition-colors focus:border-primary ${
-              errors.message ? "border-red-400" : "border-border"
+            className={`w-full border bg-surface px-3.5 py-2.5 text-sm text-text placeholder:text-text-muted/70 outline-none transition-colors focus:border-accent ${
+              errors.message ? "border-red-500" : "border-border"
             }`}
           />
           {errors.message ? <p className="mt-1 text-xs text-red-500">{errors.message}</p> : null}
@@ -180,19 +180,19 @@ export default function ContactForm() {
           <button
             type="submit"
             disabled={status === "submitting"}
-            className="rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-primary-light disabled:opacity-60"
+            className="bg-accent px-7 py-3 font-mono text-xs font-medium uppercase tracking-[0.14em] text-white transition-colors hover:bg-accent-light disabled:opacity-60"
           >
             {status === "submitting" ? t.contact.form.submitting : t.contact.form.submit}
           </button>
 
           {status === "success" ? (
-            <p className="mt-3 rounded-lg bg-green-50 px-4 py-3 text-sm text-green-700">
+            <p className="mt-3 border border-green-500/40 bg-green-500/10 px-4 py-3 text-sm text-green-400">
               {t.contact.form.success}
             </p>
           ) : null}
 
           {submitError ? (
-            <p className="mt-3 rounded-lg bg-red-50 px-4 py-3 text-sm text-red-600">
+            <p className="mt-3 border border-red-500/40 bg-red-500/10 px-4 py-3 text-sm text-red-400">
               {submitError}
             </p>
           ) : null}
@@ -234,8 +234,8 @@ function Field({
         value={value}
         onChange={(event) => onChange(event.target.value)}
         placeholder={placeholder}
-        className={`w-full rounded-lg border px-3.5 py-2.5 text-sm outline-none transition-colors focus:border-primary ${
-          error ? "border-red-400" : "border-border"
+        className={`w-full border bg-surface px-3.5 py-2.5 text-sm text-text placeholder:text-text-muted/70 outline-none transition-colors focus:border-accent ${
+          error ? "border-red-500" : "border-border"
         }`}
       />
       {error ? <p className="mt-1 text-xs text-red-500">{error}</p> : null}

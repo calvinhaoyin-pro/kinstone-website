@@ -1,18 +1,42 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #1e3a5f;
-  --color-primary-light: #2d5a8e;
-  --color-accent: #e67e22;
-  --color-accent-light: #f39c12;
-  --color-bg: #fafafa;
-  --color-surface: #ffffff;
-  --color-text: #1a1a2e;
-  --color-text-muted: #64748b;
-  --color-border: #e2e8f0;
+  /* Dark industrial palette — "Metal" surfaces + "Spark" arc-red accent */
+  --color-bg: #0a0a0b;
+  --color-surface: #141416;
+  --color-surface-2: #1b1b1f;
+  --color-text: #f4f4f5;
+  --color-text-muted: #9a9aa3;
+  --color-border: #292930;
+
+  /* headings/light foreground reuse "primary" so text-primary stays light */
+  --color-primary: #f4f4f5;
+  --color-primary-light: #ffffff;
+
+  /* arc-red accent */
+  --color-accent: #f41111;
+  --color-accent-light: #ff3b30;
 
   --font-sans: "Inter", system-ui, sans-serif;
-  --font-display: "Sora", system-ui, sans-serif;
+  --font-display: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+/* Light "Metal" panel — locally overrides the palette so any child utility
+   (text-primary, bg-surface, border-border, …) flips to the light scheme.
+   Accent red stays the same on both themes. */
+.theme-light {
+  --color-bg: #f4f4f2;
+  --color-surface: #ffffff;
+  --color-surface-2: #e7e7e4;
+  --color-text: #16161a;
+  --color-text-muted: #55555f;
+  --color-border: #dcdcd8;
+  --color-primary: #141416;
+  --color-primary-light: #000000;
+
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
 
 @layer base {
@@ -29,11 +53,22 @@
   h3,
   h4 {
     @apply font-display text-primary;
+    letter-spacing: -0.02em;
+  }
+
+  ::selection {
+    background: var(--color-accent);
+    color: #fff;
   }
 }
 
 @layer utilities {
   .container-page {
     @apply mx-auto w-full max-w-[1280px] px-6 sm:px-8 lg:px-10;
+  }
+
+  /* Monospace overline label (Path-style) */
+  .label-mono {
+    @apply font-mono text-xs font-medium uppercase tracking-[0.18em] text-text-muted;
   }
 }

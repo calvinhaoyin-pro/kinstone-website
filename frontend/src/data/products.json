@@ -1,42 +1,232 @@
 [
   {
-    "slug": "h-beam-steel",
-    "name": { "en": "H-Beam Steel", "zh": "H型钢" },
-    "category": { "en": "Structural Steel", "zh": "结构钢" },
+    "slug": "box-structure",
+    "name": { "en": "Box Structure", "zh": "箱型结构" },
+    "category": { "en": "Main Structure System", "zh": "主结构系统" },
     "summary": {
-      "en": "[TODO] Replace with real copy. High-strength H-beam sections for structural framing, engineered for heavy load-bearing applications.",
-      "zh": "[TODO] 请替换为正式文案。高强度H型钢，适用于承重结构框架的工程应用。"
+      "en": "Fabricated box-section steel columns and beams for heavy industrial and high-load structural applications.",
+      "zh": "箱型截面钢柱与钢梁，适用于重工业及高荷载结构工程。"
     },
-    "image": ""
+    "image": "/images/products/box-structure.png"
   },
   {
-    "slug": "steel-plate",
-    "name": { "en": "Steel Plate", "zh": "钢板" },
-    "category": { "en": "Flat Steel", "zh": "板材" },
+    "slug": "high-rise-structure",
+    "name": { "en": "High-Rise Structure", "zh": "高层结构" },
+    "category": { "en": "Main Structure System", "zh": "主结构系统" },
     "summary": {
-      "en": "[TODO] Replace with real copy. Hot-rolled steel plate available in a range of thicknesses and grades for industrial fabrication.",
-      "zh": "[TODO] 请替换为正式文案。热轧钢板，提供多种厚度和等级，适用于工业制造。"
+      "en": "Multi-storey steel frame systems for commercial towers and high-rise buildings, engineered for strength and stability.",
+      "zh": "多层钢框架结构，适用于商业塔楼及高层建筑，兼顾强度与稳定性。"
     },
-    "image": ""
+    "image": "/images/products/high-rise-structure.png"
   },
   {
-    "slug": "steel-pipe",
-    "name": { "en": "Welded Steel Pipe", "zh": "焊接钢管" },
-    "category": { "en": "Tubular Steel", "zh": "管材" },
+    "slug": "light-steel-structure",
+    "name": { "en": "Light Steel Structure", "zh": "轻钢结构" },
+    "category": { "en": "Main Structure System", "zh": "主结构系统" },
     "summary": {
-      "en": "[TODO] Replace with real copy. Precision-welded steel pipe for construction, energy, and infrastructure projects worldwide.",
-      "zh": "[TODO] 请替换为正式文案。精密焊接钢管，广泛应用于全球建筑、能源及基础设施项目。"
+      "en": "Portal frame and light steel building systems for warehouses, factories, and large-span industrial facilities.",
+      "zh": "门式刚架及轻钢结构体系，适用于仓库、厂房及大跨度工业建筑。"
     },
-    "image": ""
+    "image": "/images/products/light-steel-structure.png"
   },
   {
-    "slug": "rebar",
-    "name": { "en": "Reinforcing Bar (Rebar)", "zh": "螺纹钢" },
-    "category": { "en": "Construction Steel", "zh": "建筑钢材" },
+    "slug": "truss-structure",
+    "name": { "en": "Truss Structure", "zh": "桁架结构" },
+    "category": { "en": "Main Structure System", "zh": "主结构系统" },
     "summary": {
-      "en": "[TODO] Replace with real copy. Deformed steel bar for reinforced concrete, manufactured to international sizing standards.",
-      "zh": "[TODO] 请替换为正式文案。用于钢筋混凝土的变形钢筋，符合国际尺寸标准。"
+      "en": "Large-span steel truss roof systems for industrial halls, logistics centers, and wide-open interior spaces.",
+      "zh": "大跨度钢桁架屋面体系，适用于工业厂房、物流中心及大空间建筑。"
     },
-    "image": ""
+    "image": "/images/products/truss-structure.png"
+  },
+  {
+    "slug": "c-beam",
+    "name": { "en": "C Beam", "zh": "C型钢" },
+    "category": { "en": "Secondary Structure System", "zh": "次结构系统" },
+    "summary": {
+      "en": "Galvanized cold-formed C-section purlins for roof and wall support in steel structure buildings.",
+      "zh": "镀锌冷弯C型檩条，用于钢结构建筑屋面及墙体支撑。"
+    },
+    "image": "/images/products/c-beam.png"
+  },
+  {
+    "slug": "z-beam",
+    "name": { "en": "Z Beam", "zh": "Z型钢" },
+    "category": { "en": "Secondary Structure System", "zh": "次结构系统" },
+    "summary": {
+      "en": "Galvanized cold-formed Z-section purlins and girts, ideal for overlapping roof and wall cladding applications.",
+      "zh": "镀锌冷弯Z型檩条及墙梁，适用于屋面及外墙板搭接安装。"
+    },
+    "image": "/images/products/z-beam.png"
+  },
+  {
+    "slug": "high-frequency-welded-h-beam",
+    "name": { "en": "High-Frequency Welded H-Beam", "zh": "高频焊接H型钢" },
+    "category": { "en": "Secondary Structure System", "zh": "次结构系统" },
+    "summary": {
+      "en": "High-frequency welded H-section members for secondary framing, mezzanines, and structural support applications.",
+      "zh": "高频焊接H型钢，适用于次结构框架、夹层及结构支撑工程。"
+    },
+    "image": "/images/products/high-frequency-welded-h-beam.png"
+  },
+  {
+    "slug": "color-steel-panel",
+    "name": { "en": "Color Steel Panel", "zh": "彩钢板" },
+    "category": { "en": "Color Steel Panel System", "zh": "彩钢板系统" },
+    "summary": {
+      "en": "Pre-painted corrugated color steel panels for roof and wall cladding, available in multiple profiles and colors.",
+      "zh": "预涂彩钢波纹板，用于屋面及外墙围护，多种型面和颜色可选。"
+    },
+    "image": "/images/products/color-steel-panel.png"
+  },
+  {
+    "slug": "color-steel-sandwich-panel",
+    "name": { "en": "Color Steel Sandwich Panel", "zh": "彩钢夹芯板" },
+    "category": { "en": "Color Steel Panel System", "zh": "彩钢板系统" },
+    "summary": {
+      "en": "Insulated color steel sandwich panels with EPS, rock wool, or PU cores for thermal and acoustic performance.",
+      "zh": "彩钢夹芯板，EPS、岩棉或PU芯可选，兼具保温隔热与隔声性能。"
+    },
+    "image": "/images/products/color-steel-sandwich-panel.png"
+  },
+  {
+    "slug": "steel-floor-deck",
+    "name": { "en": "Steel Floor Deck", "zh": "钢楼承板" },
+    "category": { "en": "Floor System", "zh": "楼层系统" },
+    "summary": {
+      "en": "Composite corrugated steel floor deck with shear studs for concrete slab construction in multi-storey steel buildings.",
+      "zh": "组合式波纹钢楼承板，配栓钉用于多层钢结构混凝土楼板施工。"
+    },
+    "image": "/images/products/steel-floor-deck.png"
+  },
+  {
+    "slug": "steel-grating",
+    "name": { "en": "Steel Grating", "zh": "钢格栅板" },
+    "category": { "en": "Floor System", "zh": "楼层系统" },
+    "summary": {
+      "en": "Galvanized steel bar grating for walkways, platforms, and industrial flooring with drainage and slip resistance.",
+      "zh": "镀锌钢格栅板，适用于走道、平台及工业地坪，具备排水及防滑性能。"
+    },
+    "image": "/images/products/steel-grating.png"
+  },
+  {
+    "slug": "stair",
+    "name": { "en": "Steel Stair", "zh": "钢楼梯" },
+    "category": { "en": "Floor System", "zh": "楼层系统" },
+    "summary": {
+      "en": "Fabricated steel stair systems for mezzanines and multi-level industrial buildings, with optional cable or pipe railings.",
+      "zh": "装配式钢楼梯，适用于夹层及多层工业建筑，可选钢索或栏杆扶手。"
+    },
+    "image": "/images/products/stair.png"
+  },
+  {
+    "slug": "checkered-steel-plate",
+    "name": { "en": "Checkered Steel Plate", "zh": "花纹钢板" },
+    "category": { "en": "Floor System", "zh": "楼层系统" },
+    "summary": {
+      "en": "Anti-slip checkered steel plate for walkways, stair treads, platforms, and industrial flooring applications.",
+      "zh": "防滑花纹钢板，适用于走道、楼梯踏步、平台及工业地坪。"
+    },
+    "image": "/images/products/checkered-steel-plate.png"
+  },
+  {
+    "slug": "steel-canopy",
+    "name": { "en": "Steel Canopy", "zh": "钢雨棚" },
+    "category": { "en": "Building Accessories", "zh": "建筑配套系列" },
+    "summary": {
+      "en": "Fabricated steel entrance canopies and awnings for building entrances, loading areas, and pedestrian walkways.",
+      "zh": "装配式钢雨棚及入口遮阳棚，适用于建筑出入口、装卸区及人行通道。"
+    },
+    "image": "/images/products/steel-canopy.png"
+  },
+  {
+    "slug": "safety-guardrail",
+    "name": { "en": "Safety Guardrail", "zh": "安全护栏" },
+    "category": { "en": "Building Accessories", "zh": "建筑配套系列" },
+    "summary": {
+      "en": "Galvanized steel safety guardrails and handrails for platforms, stairs, mezzanines, and perimeter fall protection.",
+      "zh": "镀锌钢安全护栏及扶手，适用于平台、楼梯、夹层及临边防护。"
+    },
+    "image": "/images/products/safety-guardrail.png"
+  },
+  {
+    "slug": "skylight-system",
+    "name": { "en": "Skylight System", "zh": "采光天窗系统" },
+    "category": { "en": "Building Accessories", "zh": "建筑配套系列" },
+    "summary": {
+      "en": "Translucent skylight panels and ridge daylighting systems for natural lighting in industrial and commercial buildings.",
+      "zh": "透明采光板及屋脊采光系统，为工业及商业建筑提供自然采光。"
+    },
+    "image": "/images/products/skylight-system.png"
+  },
+  {
+    "slug": "waterproof-roofing-membrane",
+    "name": { "en": "Waterproof Roofing Membrane", "zh": "防水卷材" },
+    "category": { "en": "Building Accessories", "zh": "建筑配套系列" },
+    "summary": {
+      "en": "Polymer waterproof roofing membranes for flat and low-slope roofs, providing long-term weather protection.",
+      "zh": "高分子防水卷材，适用于平屋面及缓坡屋面，提供长效防水保护。"
+    },
+    "image": "/images/products/waterproof-roofing-membrane.png"
+  },
+  {
+    "slug": "sunshade-louvers",
+    "name": { "en": "Sunshade Louvers", "zh": "遮阳百叶" },
+    "category": { "en": "Building Accessories", "zh": "建筑配套系列" },
+    "summary": {
+      "en": "Exterior aluminum or steel sunshade louvers for facade shading, glare control, and energy efficiency.",
+      "zh": "室外铝制或钢制遮阳百叶，用于立面遮阳、眩光控制及节能。"
+    },
+    "image": "/images/products/sunshade-louvers.png"
+  },
+  {
+    "slug": "pv-system",
+    "name": { "en": "PV System", "zh": "光伏系统" },
+    "category": { "en": "Building Accessories", "zh": "建筑配套系列" },
+    "summary": {
+      "en": "Rooftop photovoltaic mounting systems integrated with steel structure buildings for solar power generation.",
+      "zh": "与钢结构建筑集成的屋面光伏支架系统，用于太阳能发电。"
+    },
+    "image": "/images/products/pv-system.png"
+  },
+  {
+    "slug": "insulation-material",
+    "name": { "en": "Insulation Material", "zh": "保温材料" },
+    "category": { "en": "Building Accessories", "zh": "建筑配套系列" },
+    "summary": {
+      "en": "Glass wool insulation blankets for roof and wall thermal insulation in steel structure buildings.",
+      "zh": "玻璃棉保温毯，用于钢结构建筑屋面及墙体保温隔热。"
+    },
+    "image": "/images/products/insulation-material.png"
+  },
+  {
+    "slug": "curtain-wall-steel-frame",
+    "name": { "en": "Curtain Wall Steel Frame", "zh": "幕墙钢框架" },
+    "category": { "en": "Architectural Decoration", "zh": "建筑装饰系统" },
+    "summary": {
+      "en": "Steel framing systems for glass curtain walls and façade cladding on commercial and high-rise buildings.",
+      "zh": "玻璃幕墙及外立面围护钢框架，适用于商业及高层建筑。"
+    },
+    "image": "/images/products/curtain-wall-steel-frame.png"
+  },
+  {
+    "slug": "steel-spiral-staircase",
+    "name": { "en": "Steel Spiral Staircase", "zh": "钢旋转楼梯" },
+    "category": { "en": "Architectural Decoration", "zh": "建筑装饰系统" },
+    "summary": {
+      "en": "Architectural spiral staircases in steel for commercial lobbies, atriums, and decorative interior applications.",
+      "zh": "建筑用钢旋转楼梯，适用于商业大堂、中庭及室内装饰。"
+    },
+    "image": "/images/products/steel-spiral-staircase.png"
+  },
+  {
+    "slug": "steel-gazebo",
+    "name": { "en": "Steel Gazebo", "zh": "钢凉亭" },
+    "category": { "en": "Architectural Decoration", "zh": "建筑装饰系统" },
+    "summary": {
+      "en": "Fabricated steel gazebos and pavilions for courtyards, parks, and outdoor architectural features.",
+      "zh": "装配式钢凉亭及景观亭，适用于庭院、公园及户外建筑景观。"
+    },
+    "image": "/images/products/steel-gazebo.png"
   }
 ]

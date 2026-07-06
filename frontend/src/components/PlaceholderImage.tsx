@@ -10,7 +10,7 @@ export default function PlaceholderImage({ className = "", label }: PlaceholderI
 
   return (
     <div
-      className={`flex flex-col items-center justify-center gap-2 bg-border/60 text-text-muted ${className}`}
+      className={`flex flex-col items-center justify-center gap-2 bg-surface-2 text-text-muted ${className}`}
       role="img"
       aria-label={label ?? t.common.placeholder}
     >

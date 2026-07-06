@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useLocale } from "../i18n/LocaleContext";
 import LanguageSwitcher from "./LanguageSwitcher";
+import Logo from "./Logo";
 
 const NAV_ITEMS = [
   { to: "/", key: "home" as const },
@@ -15,18 +16,17 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const linkClass = ({ isActive }: { isActive: boolean }) =>
-    `text-sm font-medium transition-colors ${
-      isActive ? "text-accent" : "text-text hover:text-primary"
+    `relative font-mono text-xs uppercase tracking-[0.14em] transition-colors after:absolute after:-bottom-1.5 after:left-0 after:h-px after:bg-accent after:transition-all after:duration-300 ${
+      isActive
+        ? "text-text after:w-full"
+        : "text-text-muted hover:text-text after:w-0 hover:after:w-full"
     }`;
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-surface/90 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-border bg-bg/80 backdrop-blur-md">
       <nav className="container-page flex h-16 items-center justify-between">
-        <NavLink to="/" className="flex items-center gap-2 font-display text-lg font-bold text-primary">
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-sm font-bold text-white">
-            K
-          </span>
-          Kinstone
+        <NavLink to="/" className="flex items-center" aria-label="Kinstone home">
+          <Logo className="h-9" />
         </NavLink>
 
         <div className="hidden items-center gap-8 md:flex">
@@ -41,7 +41,7 @@ export default function Navbar() {
           <LanguageSwitcher />
           <NavLink
             to="/contact"
-            className="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-accent-light"
+            className="bg-accent px-5 py-2 font-mono text-xs font-medium uppercase tracking-[0.14em] text-white transition-colors hover:bg-accent-light"
           >
             {t.nav.cta}
           </NavLink>
@@ -49,7 +49,7 @@ export default function Navbar() {
 
         <button
           type="button"
-          className="flex h-10 w-10 items-center justify-center rounded-lg border border-border md:hidden"
+          className="flex h-10 w-10 items-center justify-center border border-border text-text md:hidden"
           aria-label="Toggle menu"
           aria-expanded={open}
           onClick={() => setOpen((prev) => !prev)}
@@ -61,7 +61,7 @@ export default function Navbar() {
       </nav>
 
       {open ? (
-        <div className="border-t border-border bg-surface px-6 py-4 md:hidden">
+        <div className="border-t border-border bg-bg px-6 py-4 md:hidden">
           <div className="flex flex-col gap-4">
             {NAV_ITEMS.map((item) => (
               <NavLink
@@ -77,7 +77,7 @@ export default function Navbar() {
             <NavLink
               to="/contact"
               onClick={() => setOpen(false)}
-              className="w-fit rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white"
+              className="w-fit bg-accent px-5 py-2 font-mono text-xs font-medium uppercase tracking-[0.14em] text-white"
             >
               {t.nav.cta}
             </NavLink>

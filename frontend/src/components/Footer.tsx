@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useLocale } from "../i18n/LocaleContext";
+import Logo from "./Logo";
 
 const NAV_ITEMS = [
   { to: "/", key: "home" as const },
@@ -14,26 +15,19 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-border bg-primary text-white">
-      <div className="container-page grid gap-10 py-12 sm:grid-cols-3">
+    <footer className="border-t border-border bg-surface text-text">
+      <div className="container-page grid gap-10 py-14 sm:grid-cols-3">
         <div>
-          <div className="flex items-center gap-2 font-display text-lg font-bold">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/10 text-sm font-bold">
-              K
-            </span>
-            Kinstone
-          </div>
-          <p className="mt-3 max-w-xs text-sm text-white/70">{t.footer.tagline}</p>
+          <Logo variant="onDark" className="h-8" />
+          <p className="mt-4 max-w-xs text-sm text-text-muted">{t.footer.tagline}</p>
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold uppercase tracking-wide text-white/80">
-            {t.footer.quickLinks}
-          </h3>
-          <ul className="mt-3 flex flex-col gap-2">
+          <h3 className="label-mono">{t.footer.quickLinks}</h3>
+          <ul className="mt-4 flex flex-col gap-2.5">
             {NAV_ITEMS.map((item) => (
               <li key={item.to}>
-                <NavLink to={item.to} className="text-sm text-white/70 hover:text-white">
+                <NavLink to={item.to} className="text-sm text-text-muted hover:text-text">
                   {t.nav[item.key]}
                 </NavLink>
               </li>
@@ -42,10 +36,8 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold uppercase tracking-wide text-white/80">
-            {t.footer.contactHeading}
-          </h3>
-          <ul className="mt-3 flex flex-col gap-2 text-sm text-white/70">
+          <h3 className="label-mono">{t.footer.contactHeading}</h3>
+          <ul className="mt-4 flex flex-col gap-2.5 text-sm text-text-muted">
             <li>{t.contact.info.address}</li>
             <li>{t.contact.info.phone}</li>
             <li>{t.contact.info.email}</li>
@@ -53,8 +45,8 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/10 py-4">
-        <p className="container-page text-center text-xs text-white/60">
+      <div className="border-t border-border py-5">
+        <p className="container-page text-center font-mono text-xs text-text-muted">
           {t.footer.copyright.replace("{year}", String(year))}
         </p>
       </div>

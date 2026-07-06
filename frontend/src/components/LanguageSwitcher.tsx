@@ -10,17 +10,17 @@ export default function LanguageSwitcher() {
   const { locale, setLocale } = useLocale();
 
   return (
-    <div className="flex items-center rounded-full border border-border bg-surface p-0.5 text-sm font-medium">
+    <div className="flex items-center border border-border bg-surface p-0.5 font-mono text-xs">
       {OPTIONS.map((option) => (
         <button
           key={option.value}
           type="button"
           onClick={() => setLocale(option.value)}
           aria-pressed={locale === option.value}
-          className={`rounded-full px-3 py-1 transition-colors ${
+          className={`px-3 py-1 transition-colors ${
             locale === option.value
-              ? "bg-primary text-white"
-              : "text-text-muted hover:text-primary"
+              ? "bg-accent text-white"
+              : "text-text-muted hover:text-text"
           }`}
         >
           {option.label}

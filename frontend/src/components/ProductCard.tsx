@@ -13,12 +13,18 @@ export default function ProductCard({ product }: ProductCardProps) {
 
   return (
     <Card>
-      <PlaceholderImage className="aspect-[4/3] w-full" />
+      {product.image ? (
+        <img
+          src={product.image}
+          alt={product.name[locale]}
+          className="aspect-[4/3] w-full object-cover"
+        />
+      ) : (
+        <PlaceholderImage className="aspect-[4/3] w-full" />
+      )}
       <div className="p-5">
-        <p className="text-xs font-semibold uppercase tracking-wide text-accent">
-          {product.category[locale]}
-        </p>
-        <h3 className="mt-1 text-lg font-semibold text-primary">{product.name[locale]}</h3>
+        <p className="label-mono text-accent">{product.category[locale]}</p>
+        <h3 className="mt-2 text-lg font-semibold text-primary">{product.name[locale]}</h3>
         <p className="mt-2 text-sm text-text-muted">{product.summary[locale]}</p>
         <Link
           to={`/contact?type=quote&product=${product.slug}`}
